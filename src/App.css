@@ -1,0 +1,52 @@
+body{
+  background-color: #272b33;
+  font-family: 'Comic Neue', cursive;
+}
+
+input{
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  width: 10%;
+  height: auto;
+}
+.app {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 15px;
+  justify-content: center;
+}
+
+.card-cont{
+  padding: 15px;
+  width: 40%;
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  background-color: #3c3e44;
+  border-radius: 16px;
+
+}
+.details-cont{
+  padding: 15px;
+}
+.card img{
+  height:100%;
+  width: auto;
+  border-radius: 16px 0 0 16px;
+
+}
+
+.card h2,h3{
+  color: white;
+}
+.card p{
+  color:#8e9093;
+}
+@media screen and (max-width: 800px) {
+  .card-cont {
+    width: 80%; 
+  }
+}
